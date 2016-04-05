@@ -13,7 +13,8 @@
 <link href="css/font-awesome.css" rel="stylesheet">
 <script src="js/jquery.min.js"></script>
 <script src="js/laydate/laydate.js"></script>
-<script src="js/bootstrap.min.js">
+<script src="js/bootstrap.min.js"></script>
+<script src="layer/layer.js"></script>
 	
 </script>
 
@@ -42,9 +43,12 @@
 	    	});
 	    	
 	    	
-// 	    var url = window.url;
+// 	    var url = document.URL;
 // 	    if(url.indexOf("HomeServlet.do") >= 0){
 // 	    	$(".nav li").removeClass("active");
+// 	    	$(".nav1").addClass("active");
+// 	    	$(".nav1>ul").removeClass("").addClass("collapse").addClass("in");
+// 	    	$(".nav1>ul").css("aria-expanded",true);
 // 	    }
 	});
 </script>

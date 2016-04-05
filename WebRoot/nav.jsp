@@ -41,7 +41,7 @@
                 <div class="sidebar-nav navbar-collapse">
                 <ul class="nav" id="side-menu">
 				
-                    <li>
+                    <li class="nav1">
                         <a href="#" class=" hvr-bounce-to-right"><i class="fa fa-indent nav_icon"></i> <span class="nav-label">药品管理</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li><a href="HomeServlet.do?type2=frist" class=" hvr-bounce-to-right"> <i class="fa fa-area-chart nav_icon"></i>药品信息</a></li>
@@ -50,7 +50,7 @@
 			
 					   </ul>
                     </li>
-					 <li>
+					 <li class="nav2">
                         <a href="#" class=" hvr-bounce-to-right"><i class="fa fa-inbox nav_icon"></i> <span class="nav-label">入库管理</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                        		 <li><a href="ruku.jsp" class=" hvr-bounce-to-right"><i class="fa fa-file-text-o nav_icon"></i>药品入库</a></li>
@@ -59,7 +59,7 @@
                         </ul>
                     </li>
                     
-                     <li>
+                     <li class="nav3">
                         <a href="#" class=" hvr-bounce-to-right"><i class="fa fa-desktop nav_icon"></i> <span class="nav-label">出库管理</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li><a href="Kc2Servlet.do?type1=frist" class=" hvr-bounce-to-right"> <i class="fa fa-info-circle nav_icon"></i>药品出库</a></li>
@@ -67,7 +67,7 @@
                        </ul>
                     </li>
                    
-                    <li>
+                    <li class="nav4">
                         <a href="#" class=" hvr-bounce-to-right"><i class="fa fa-list nav_icon"></i> <span class="nav-label">库存管理</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li><a href="KcServlet.do?type1=frist" class=" hvr-bounce-to-right"><i class="fa fa-align-left nav_icon"></i>库存查询</a></li>

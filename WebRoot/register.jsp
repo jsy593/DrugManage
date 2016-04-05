@@ -19,6 +19,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	-->
 	<link href="images/res.css" rel="stylesheet" type="text/css" />
+	<script src="js/jquery.min.js"></script>
+	<script src="layer/layer.js"></script>
   <script type="text/javascript">
       function  checkPs(obj){
 	     var  ps = obj.value;
@@ -30,7 +32,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		 }else if(ps.length>=6 && ps.length<=12 && isNaN(ps)){
 		    flag = 2;
 		 }else{
-		     alert("密码不合法！");
+		     layer.alert("密码不合法！",{icon:5});
 			 return;
 		 }
 		 //判断 flag的值
@@ -68,7 +70,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	   var ps1=document.getElementById("password");
 	   var ps2=document.getElementById("password1");
 	   if(ps1.value!=ps2.value){
-	      alert("输入不一致");
+	      layer.alert("输入不一致",{icon:5});
 		  return;
 	   }
 	}
@@ -106,7 +108,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 										</td>
 										<td align="left">
 											<input type="text" name="password" id="password"
-												placeholder="密码" onkeyup="checkPs(this)" />
+												placeholder="密码" onblur="checkPs(this)" />
 											<span id="one" class="styleSpan">&nbsp;弱&nbsp;</span>
                                             <span id="two" class="styleSpan">&nbsp;中&nbsp;</span>
                                             <span id="three" class="styleSpan">&nbsp;强&nbsp;</span>
@@ -118,7 +120,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 										</td>
 										<td align="left">
 											<input type="text" name="password2" id="password1" placeholder="确认密码"
-												required   onkeyup="check()"/>
+												required   onblur="check()"/>
 										</td>
 									</tr>
 									
