@@ -40,7 +40,12 @@
 	    	$("td > input").each(function(){
 			    $(this).addClass("form-control-static");
 	    	});
-    	}
+	    	
+	    	
+// 	    var url = window.url;
+// 	    if(url.indexOf("HomeServlet.do") >= 0){
+// 	    	$(".nav li").removeClass("active");
+// 	    }
 	});
 </script>
 
@@ -49,6 +54,20 @@
 .table td, .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td,
 	.table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
 	border-top: 1px solid #ddd !important;
+}
+
+.style_serach {
+	height: 34px;
+	margin: 0px !important;
+}
+
+td>input, td>select {
+	margin: 15px 0px;
+	height: 34px;
+}
+
+.buttons {
+	font-size: 1em !important;
 }
 </style>
 </head>
