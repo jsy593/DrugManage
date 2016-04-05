@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>RegisterServlet</servlet-name>
+		<servlet-class>com.wdz.servlet.RegisterServlet</servlet-class>
+	</servlet>
+	<servlet>
+
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.wdz.servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>ValidateNumber</servlet-name>
+		<servlet-class>com.wdz.servlet.ValidateNumber</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>HomeServlet</servlet-name>
+		<servlet-class>com.wdz.servlet.HomeServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>AddServlet</servlet-name>
+		<servlet-class>com.wdz.servlet.AddServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>RukuServlet</servlet-name>
+		<servlet-class>com.wdz.servlet.RukuServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>CukuServlet</servlet-name>
+		<servlet-class>com.wdz.servlet.CukuServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>KcServlet</servlet-name>
+		<servlet-class>com.wdz.servlet.KcServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>RAddServlet</servlet-name>
+		<servlet-class>com.wdz.servlet.RAddServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>NumberServlet</servlet-name>
+		<servlet-class>com.wdz.servlet.NumberServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>Kc1Servlet</servlet-name>
+		<servlet-class>com.wdz.servlet.Kc1Servlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>Kc2Servlet</servlet-name>
+		<servlet-class>com.wdz.servlet.Kc2Servlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>Cuku1Servlet</servlet-name>
+		<servlet-class>com.wdz.servlet.Cuku1Servlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>RkServlet</servlet-name>
+		<servlet-class>com.wdz.servlet.RkServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>CAddServlet</servlet-name>
+		<servlet-class>com.wdz.servlet.CAddServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>CKServlet</servlet-name>
+		<servlet-class>com.wdz.servlet.CKServlet</servlet-class>
+	</servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>RegisterServlet</servlet-name>
+		<url-pattern>/RegisterServlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ValidateNumber</servlet-name>
+		<url-pattern>/validateNumber.jpg</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>HomeServlet</servlet-name>
+		<url-pattern>/HomeServlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddServlet</servlet-name>
+		<url-pattern>/AddServlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RukuServlet</servlet-name>
+		<url-pattern>/RukuServlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CukuServlet</servlet-name>
+		<url-pattern>/CukuServlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>KcServlet</servlet-name>
+		<url-pattern>/KcServlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RAddServlet</servlet-name>
+		<url-pattern>/RAddServlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>NumberServlet</servlet-name>
+		<url-pattern>/NumberServlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Kc1Servlet</servlet-name>
+		<url-pattern>/Kc1Servlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Kc2Servlet</servlet-name>
+		<url-pattern>/Kc2Servlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Cuku1Servlet</servlet-name>
+		<url-pattern>/Cuku1Servlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RkServlet</servlet-name>
+		<url-pattern>/RkServlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CAddServlet</servlet-name>
+		<url-pattern>/CAddServlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CKServlet</servlet-name>
+		<url-pattern>/CKServlet.do</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
